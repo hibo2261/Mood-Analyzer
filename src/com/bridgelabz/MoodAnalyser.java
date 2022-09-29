@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 public class MoodAnalyser {
     public String analyseMood(String message) {
-        if (message.contains("happy")) {
+        if (message.contains("happy mood")) {
             System.out.println("HAPPY");
             return "HAPPY MOOD";
         } else {
@@ -12,6 +12,6 @@ public class MoodAnalyser {
     }
     public static void main(String[] args) {
         MoodAnalyser moodAnalyser = new MoodAnalyser();
-        moodAnalyser.analyseMood("I'm in happy mood today");
+        moodAnalyser.analyseMood("I am in sad mood");
     }
 }
